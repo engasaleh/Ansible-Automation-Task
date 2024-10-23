@@ -1,0 +1,8 @@
+
+
+[webservers]
+W-Server-1 ansible_host=ec2-54-158-0-252.compute-1.amazonaws.com ansible_user=ec2-user
+W-Server-2 ansible_host=ec2-98-81-219-178.compute-1.amazonaws.com ansible_user=ec2-user
+W-Server-3 ansible_host=ec2-54-210-79-161.compute-1.amazonaws.com ansible_user=ec2-user
+W-Server-4 ansible_host=ec2-54-146-227-188.compute-1.amazonaws.com ansible_user=ec2-user
+

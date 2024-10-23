@@ -1,0 +1,24 @@
+---
+- name: Publish web server on CentOS-based EC2 instances
+  hosts: webservers
+  become: yes  # Use sudo to run tasks with elevated privileges
+  tasks:
+
+    - name: Install Apache (httpd) web server
+      yum:
+        name: httpd
+        state: present
+
+    - name: Start and enable Apache service
+      service:
+        name: httpd
+        state: started
+        enabled: yes
+
+    - name: Copy custom index.html to the web server root
+      copy:
+        src: /home/abdallah/index.html  
+        dest: /var/www/html/index.html
+        mode: '0644'
+
+    
