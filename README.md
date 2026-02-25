@@ -55,7 +55,7 @@ This project demonstrates fundamental DevOps automation practices and Infrastruc
 ## 🛠 Technologies Used
 
 - Ansible
-- Linux (Target Servers)
+- Linux (Target Servers | EC2 Instances)
 - Apache (httpd)
 - SSH Authentication
 
