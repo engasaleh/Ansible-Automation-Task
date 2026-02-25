@@ -25,19 +25,19 @@ This project demonstrates fundamental DevOps automation practices and Infrastruc
 > Below are key screenshots to verify infra, connectivity, syntax, and successful runs.
 
 ### 1) EC2 Instances (Targets)
-EC2_Instances.png
+![EC2 Instances](EC2_Instances.png)
 
 ### 2) SSH Connectivity Check
-SSH_Connectivity.png
+![SSH Connectivity](SSH_Connectivity.png)
 
 ### 3) Playbook Syntax Check
-Check_Syntax_Playbook.png
+![Playbook Syntax Check](Check_Syntax_Playbook.png)
 
 ### 4) Playbook Run — First Execution
-PlayBook_Run_1.png
+![Playbook Run 1](PlayBook_Run_1.png)
 
 ### 5) Playbook Run — Second (Idempotent) Execution
-PlayBook_Run_2.png
+![Playbook Run 2](PlayBook_Run_2.png)
 
 ---
 
