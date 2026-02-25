@@ -20,6 +20,28 @@ This project demonstrates fundamental DevOps automation practices and Infrastruc
 
 ---
 
+## 🖼️ Screenshots
+
+> Below are key screenshots to verify infra, connectivity, syntax, and successful runs.
+
+### 1) EC2 Instances (Targets)
+EC2_Instances.png
+
+### 2) SSH Connectivity Check
+SSH_Connectivity.png
+
+### 3) Playbook Syntax Check
+Check_Syntax_Playbook.png
+
+### 4) Playbook Run — First Execution
+PlayBook_Run_1.png
+
+### 5) Playbook Run — Second (Idempotent) Execution
+PlayBook_Run_2.png
+
+---
+
+
 ## 🎯 Project Objectives
 
 - Automate Apache installation
